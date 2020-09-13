@@ -25,3 +25,5 @@ traj
 ENERGIES
 
 ```
+
+This will result in 1000 TRR and ENERGIES files each, with equally distributed frames.

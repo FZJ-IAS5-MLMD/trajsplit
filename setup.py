@@ -8,7 +8,7 @@ setup(
     author=["Bharath Raghavan"],
     author_email='b.raghavan@fz-juelich.de',
     packages=['trajsplit'],
-    install_requires=['panedr'],
+    install_requires=['mdanalysis', 'tqdm'],
     entry_points = {
         'console_scripts': ['trajsplit = trajsplit.__main__:main'],
     })
